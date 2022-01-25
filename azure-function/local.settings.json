@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "YOUR_STORAGE_ACCOUNT_CONNECTION_STRING_HERE",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "dcasatimedia_STORAGE": "YOUR_STORAGE_ACCOUNT_CONNECTION_STING_HERE",
+    "AzureWebJobs.BlobTrigger1.Disabled": "false"
+  }
+}
