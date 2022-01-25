@@ -27,6 +27,15 @@ This sample application uses a combination of Power Apps, Azure Functions (pytho
 
 <img width="1342" alt="Upload File to Blob" src=https://user-images.githubusercontent.com/3240777/150886426-a304e277-a34d-4bab-ab89-766e91236810.png>
 
+### Monitoring
+The Python code on the Azure Functions for this example is instrumented to send telemetry to Application Insights. When the code is executed, you can use the _Log stream_ option on the Azure Portal to see logs as they flow back to Azure.
+
+![image](https://user-images.githubusercontent.com/3240777/150889072-e93251b5-a206-4006-af89-5b1f9417d11d.png)
+
+At this point you should have new files on the **output** container on Blob Storage:
+
+![image](https://user-images.githubusercontent.com/3240777/150889243-2e398a01-94a8-4d51-a48c-9c84134c6ff7.png)
+
 ### Additional Resources 🎁
 * [Azure Blob storage output binding for Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-output?tabs=python)
 * [Azure Blob storage trigger for Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-trigger?tabs=python)
